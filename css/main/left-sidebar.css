@@ -1,0 +1,20 @@
+.sidebar-menu__item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sidebar-menu__item:hover {
+  background: rgb(228, 230, 233);
+}
+
+.sidebar-menu__img {
+  width: 36px;
+  margin-right: 8px;
+}
+
+.sidebar-left__sidebar-menu {
+  padding: 8px;
+}
