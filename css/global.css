@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li,
+ol {
+  list-style: none;
+}
+
+button {
+  all: unset;
+}
+
+body {
+  background: rgb(240, 242, 245);
+}
