@@ -21,8 +21,12 @@
 }
 
 .layout__main {
+  margin-top: 15px;
   flex-grow: 1;
   flex-basis: 760px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 32px;
 }
 
 .layout__sidebar-right {
