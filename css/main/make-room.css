@@ -1,0 +1,56 @@
+.make-room {
+  display: flex;
+  align-items: center;
+}
+
+.make-room__button {
+  padding: 8px 15px;
+  border: 2px solid rgb(242, 242, 242);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.make-room__button:hover {
+  background: rgb(242, 242, 242);
+}
+
+.make-room__profile-image {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.make-room__button--icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.make-room__profile-item {
+  position: relative;
+}
+
+.make-room__button--title {
+  color: rgb(33, 111, 219);
+  font-weight: bold;
+}
+
+.make-room__profile-image {
+  vertical-align: middle;
+}
+
+.make_room__profile-image--online {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgb(49, 162, 76);
+  bottom: 0;
+  right: 0;
+  border: 1px solid white;
+}
+
+.make-room__profile-list {
+  display: flex;
+  column-gap: 15px;
+}
