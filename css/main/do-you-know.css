@@ -1,0 +1,81 @@
+.do-you-know__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.do-you-know__header-title {
+  font-weight: bold;
+}
+
+.do-you-know__header-icon {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.do-you-know__header-icon:hover {
+  background: rgb(242, 242, 242);
+}
+
+.do-you-know__header-icon {
+  display: inline;
+  vertical-align: middle;
+}
+
+.do-you-know__name {
+  font-weight: bold;
+}
+
+.do-you-know__list {
+  display: flex;
+  column-gap: 15px;
+}
+
+.do-you-know__item {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 12px 0px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.do-you-know__content {
+  padding: 10px;
+}
+
+.do-you-know__item-button {
+  background: rgb(231, 243, 255);
+  display: flex;
+  padding: 10px 15px;
+  border-radius: 9px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.do-you-know__item-button:hover {
+  background: rgb(219, 231, 242);
+}
+
+.do-you-know__item-icon {
+  margin-right: 8px;
+  color: rgb(24, 119, 242);
+}
+
+.do-you-know__item-text {
+  color: rgb(24, 119, 242);
+  font-weight: bold;
+}
+
+.do-you-know__delete-button {
+  position: absolute;
+  top: 1.5em;
+  right: 0.5em;
+  padding: 0.5em;
+  transform: translate(-50%, -50%);
+  background: rgb(115, 116, 119);
+}
+
+.do-you-know__delete-icon {
+  font-size: 1.5em;
+  vertical-align: top;
+}
