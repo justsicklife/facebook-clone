@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="/css/main/left-sidebar.css">
     <link rel="stylesheet" href="/css/main/make-story.css">
     <link rel="stylesheet" href="/css/main/layout-main.css">
+    <link rel="stylesheet" href="/css/main/make-post.css">
+    <link rel="stylesheet" href="/css/main/make-room.css">
     <link rel="stylesheet" href="/css/global.css">
     <script src="https://kit.fontawesome.com/d0c9e176cb.js" crossorigin="anonymous"></script>
 </head>
@@ -72,9 +74,53 @@
                     </div>
                 </div>
             </div>
+            <div class="main__block">
+                <div class="make-post">
+                    <div class="make-post__form">
+                        <img src="/img/profile.jpg" class="make-post__img">
+                        <input class="make-post__input" placeholder="구슬탈출님, 무슨 생각을 하고 계신가요?" type="text">
+                    </div>
+                    <div class="make-post__contents">
+                        <div class="make-post__item">
+                            <i class="fas fa-video make-post__icon make-post__icon--live-broadcast"></i>
+                            <div class="make-post__text">라이브 방송</div>
+                        </div>
+                        <div class="make-post__item">
+                            <i class="fas fa-images make-post__icon make-post__icon--image"></i>
+                            <div class="make-post__text">사진 / 동영상</div>
+                        </div>
+                        <div class="make-post__item">
+                            <i class="fas fa-smile make-post__icon make-post__icon--smile"></i>
+                            <div class="make-post__text">기분 / 활동</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__block">
+                <div class="make-room">
+                    <button class="make-room__button">
+                        <i class="fas fa-video make-room__button--icon"></i>
+                        <span class="make-room__button--title">룸스 만들기</span>
+                    </button>
+                    <div class="make-room__profile-list">
+                        <div class="make-room__profile-item">
+                            <img class="make-room__profile-image" src="/img/default-profile.png" >
+                            <div class="make_room__profile-image--online"></div>
+                        </div>
+                        <div class="make-room__profile-item">
+                            <img class="make-room__profile-image" src="/img/default-profile.png" >
+                            <div class="make_room__profile-image--online"></div>
+                        </div>
+                        <div class="make-room__profile-item">
+                            <img class="make-room__profile-image" src="/img/default-profile.png" >
+                            <div class="make_room__profile-image--online"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
         <div class="layout__sidebar-right">
-            right side bar
+            right side 
         </div>
     </div>
 </body>
