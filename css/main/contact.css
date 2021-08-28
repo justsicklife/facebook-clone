@@ -1,0 +1,53 @@
+.contact__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.contact__list-icon {
+  display: flex;
+  column-gap: 0.8em;
+}
+
+.contact__title {
+  font-weight: bold;
+  color: rgb(134, 135, 139);
+  font-size: 1.1em;
+}
+
+.contact__item-icon {
+  color: rgb(134, 135, 139);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.contact__item-icon:hover {
+  background: rgb(228, 230, 233);
+}
+
+.contact__item-user {
+  display: flex;
+  align-items: center;
+}
+
+.contact__profile-img {
+  border-radius: 50%;
+  width: 36px;
+  margin-right: 1em;
+}
+
+.contact__item-user {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contact__item-user:hover {
+  background: rgb(228, 230, 233);
+}
+
+.contact__list-user {
+  border-bottom: 2px solid rgb(228, 230, 233);
+  padding-bottom: 0.5em;
+}
