@@ -1,0 +1,35 @@
+.header__nav-main {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 56px;
+  background: #ffffff;
+}
+
+.nav-main__menu-item {
+  flex-grow: 1;
+  max-width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-right: 0.5em;
+}
+
+.nav-main__menu-item:first {
+  margin-right: none;
+}
+
+.nav-main__menu-border {
+  position: absolute;
+  bottom: 3px;
+  width: 100%;
+  border-bottom: 3px solid rgb(24, 119, 242);
+  top: 53px;
+}
+
+.nav-main__menu-icon {
+  font-size: 2em;
+}

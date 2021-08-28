@@ -1,6 +1,10 @@
 .header__nav-left {
   display: flex;
   align-items: center;
+  height: 56px;
+  margin-left: 1em;
+  position: fixed;
+  z-index: 2;
 }
 
 .nav-left__logo {

@@ -1,0 +1,25 @@
+.header__nav-right {
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  height: 56px;
+  margin-right: 1.5em;
+}
+
+.nav-right__menu {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5em;
+}
+
+.nav-right__menu-icon {
+  font-size: 1.2em;
+  padding: 0.6em;
+  border-radius: 50%;
+  background: rgb(228, 230, 235);
+}
+
+.nav-right__menu-icon:hover {
+  background: rgb(216, 218, 223);
+}

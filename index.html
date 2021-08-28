@@ -1,289 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook</title>
-    <link rel="stylesheet" href="/css/main/layout.css">
-    <link rel="stylesheet" href="/css/main/left-sidebar.css">
-    <link rel="stylesheet" href="/css/main/make-story.css">
-    <link rel="stylesheet" href="/css/main/layout-main.css">
-    <link rel="stylesheet" href="/css/main/make-post.css">
-    <link rel="stylesheet" href="/css/main/make-room.css">
-    <link rel="stylesheet" href="/css/main/do-you-know.css">
-    <link rel="stylesheet" href="/css/main/contact.css">
-    <link rel="stylesheet" href="/css/main/right-sidebar.css">
-    <link rel="stylesheet" href="/css/main/group-chatting.css">
-    <link rel="stylesheet" href="/css/nav/nav-left.css">
-    <link rel="stylesheet" href="/css/nav/nav-main.css">
-    <link rel="stylesheet" href="/css/nav/nav-right.css">
-    <link rel="stylesheet" href="/css/nav/header-nav.css">
-    <link rel="stylesheet" href="/css/global.css">
-    <script src="https://kit.fontawesome.com/d0c9e176cb.js" crossorigin="anonymous"></script>
-</head>
-<body>
+
+    <link rel="stylesheet" href="/css/main/layout.css" />
+    <link rel="stylesheet" href="/css/main/left-sidebar.css" />
+    <link rel="stylesheet" href="/css/main/make-story.css" />
+    <link rel="stylesheet" href="/css/main/layout-main.css" />
+    <link rel="stylesheet" href="/css/main/make-post.css" />
+    <link rel="stylesheet" href="/css/main/make-room.css" />
+    <link rel="stylesheet" href="/css/main/do-you-know.css" />
+    <link rel="stylesheet" href="/css/main/contact.css" />
+    <link rel="stylesheet" href="/css/main/right-sidebar.css" />
+    <link rel="stylesheet" href="/css/main/group-chatting.css" />
+
+    <link rel="stylesheet" href="/css/nav/nav-left.css" />
+    <link rel="stylesheet" href="/css/nav/nav-main.css" />
+    <link rel="stylesheet" href="/css/nav/nav-right.css" />
+    <link rel="stylesheet" href="/css/nav/header-nav.css" />
+
+    <link rel="stylesheet" href="/css/global.css" />
+    <script
+      src="https://kit.fontawesome.com/d0c9e176cb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header class="header">
-        <nav class="header__nav">
-            <div class="header__nav-left">
-                <div class="nav-left__logo">
-                    <i class="fab fa-facebook nav-left__logo-icon"></i>
-                </div>
-                <div class="nav-left__search">
-                    <i class="fas fa-search nav-left__search-icon"></i>
-                    <input 
-                    class="nav-left__search-input" 
-                    placeholder="Facebook 검색" type="text">
-                </div>
-            </div>
-            <div class="header__nav-main">
-                <div class="nav-main__menu-list">
-                    <div class="nav-main__menu-item">
-                        <i class="fas fa-home nav-main__menu-icon"></i>
-                        <i class="fas fa-user-friends nav-main__menu-icon"></i>
-                        <i class="fas fa-users nav-main__menu-icon"></i>
-                        <i class="fas fa-gamepad nav-main__menu-icon"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="header__nav-right">
-                <div class="nav-right__menu-list">
-                    <div class="nav-right__menu-item">
-                        <i class="fas fa-bars nav-right__menu-icon"></i>
-                        <i class="fas fa-comment-dots nav-right__menu-icon"></i>
-                        <i class="fas fa-bell nav-right__menu-icon"></i>
-                        <i class="fas fa-caret-down nav-right__menu-icon"></i>
-                    </div>
-                </div>
-            </div>
-        </nav>
+      <nav class="header__nav">
+        <div class="header__nav-left">
+          <div class="nav-left__logo">
+            <i class="fab fa-facebook nav-left__logo-icon"></i>
+          </div>
+          <div class="nav-left__search">
+            <i class="fas fa-search nav-left__search-icon"></i>
+            <input
+              class="nav-left__search-input"
+              placeholder="Facebook 검색"
+              type="text"
+            />
+          </div>
+        </div>
+        <div class="header__nav-main">
+          <div class="nav-main__menu-item">
+            <div class="nav-main__menu-border"></div>
+            <i class="fas fa-home nav-main__menu-icon"></i>
+          </div>
+          <div class="nav-main__menu-item">
+            <div class="nav-main__menu-border"></div>
+            <i class="fas fa-user-friends nav-main__menu-icon"></i>
+          </div>
+          <div class="nav-main__menu-item">
+            <div class="nav-main__menu-border"></div>
+            <i class="fas fa-users nav-main__menu-icon"></i>
+          </div>
+          <div class="nav-main__menu-item">
+            <div class="nav-main__menu-border"></div>
+            <i class="fas fa-gamepad nav-main__menu-icon"></i>
+          </div>
+        </div>
+        <div class="header__nav-right">
+          <div class="nav-right__menu">
+            <i class="fas fa-bars nav-right__menu-icon"></i>
+            <i class="fas fa-comment-dots nav-right__menu-icon"></i>
+            <i class="fas fa-bell nav-right__menu-icon"></i>
+            <i class="fas fa-caret-down nav-right__menu-icon"></i>
+          </div>
+        </div>
+      </nav>
     </header>
     <div class="layout">
-        <div class="layout__sidebar-left">
-            <ul class="sidebar-left__sidebar-menu">
-                <li class="sidebar-menu__item">
-                    <img src="/img/find-friend.png" class="sidebar-menu__img">
-                    <div class="item__text">친구 찾기</div>
-                </li>
-                <li class="sidebar-menu__item">
-                    <img src="/img/group.png" class="sidebar-menu__img">
-                    <div class="item__text">그룹</div>
-                </li>
-                <li class="sidebar-menu__item">
-                    <img src="/img/watch.png" class="sidebar-menu__img">
-                    <div class="item__text">watch</div>
-                </li>
-                <li class="sidebar-menu__item">
-                    <img src="/img/day-of-fast.png" class="sidebar-menu__img">
-                    <div class="item__text">과거의 오늘</div>
-                </li>
-                <li class="sidebar-menu__item">
-                    <img src="/img/saved.png" class="sidebar-menu__img">
-                    <div class="item__text">저장됨</div>
-                </li>
-                <li class="sidebar-menu__item">
-                    <img src="/img/page.png" class="sidebar-menu__img">
-                    <div class="item__text">페이지</div>
-                </li>
-                <li class="sidebar-menu__item">
-                    <img src="/img/event.png" class="sidebar-menu__img">
-                    <div class="item__text">이벤트</div>
-                </li>
-                <li class="sidebar-menu__item">
-                    <img src="/img/employment.png" class="sidebar-menu__img">
-                    <div class="item__text">채용 정보</div>
-                </li>
-                <li class="sidebar-menu__item">
-                    <img src="/img/recent-content.png" class="sidebar-menu__img">
-                    <div class="item__text">최신글</div>
-                </li>
-                <li class="sidebar-menu__item">
-                    <img src="/img/favorites.png" class="sidebar-menu__img">
-                    <div class="item__text">즐겨찾기</div>
-                </li>
-            </ul>
+      <div class="layout__sidebar-left">
+        <ul class="sidebar-left__sidebar-menu">
+          <li class="sidebar-menu__item">
+            <img src="/img/find-friend.png" class="sidebar-menu__img" />
+            <div class="item__text">친구 찾기</div>
+          </li>
+          <li class="sidebar-menu__item">
+            <img src="/img/group.png" class="sidebar-menu__img" />
+            <div class="item__text">그룹</div>
+          </li>
+          <li class="sidebar-menu__item">
+            <img src="/img/watch.png" class="sidebar-menu__img" />
+            <div class="item__text">watch</div>
+          </li>
+          <li class="sidebar-menu__item">
+            <img src="/img/day-of-fast.png" class="sidebar-menu__img" />
+            <div class="item__text">과거의 오늘</div>
+          </li>
+          <li class="sidebar-menu__item">
+            <img src="/img/saved.png" class="sidebar-menu__img" />
+            <div class="item__text">저장됨</div>
+          </li>
+          <li class="sidebar-menu__item">
+            <img src="/img/page.png" class="sidebar-menu__img" />
+            <div class="item__text">페이지</div>
+          </li>
+          <li class="sidebar-menu__item">
+            <img src="/img/event.png" class="sidebar-menu__img" />
+            <div class="item__text">이벤트</div>
+          </li>
+          <li class="sidebar-menu__item">
+            <img src="/img/employment.png" class="sidebar-menu__img" />
+            <div class="item__text">채용 정보</div>
+          </li>
+          <li class="sidebar-menu__item">
+            <img src="/img/recent-content.png" class="sidebar-menu__img" />
+            <div class="item__text">최신글</div>
+          </li>
+          <li class="sidebar-menu__item">
+            <img src="/img/favorites.png" class="sidebar-menu__img" />
+            <div class="item__text">즐겨찾기</div>
+          </li>
+        </ul>
+      </div>
+      <main class="layout__main">
+        <div class="main__block">
+          <div class="make-story">
+            <i class="fas fa-plus make-story--plus"></i>
+            <div class="make-story__content">
+              <h3 class="make-story__title">스토리 만들기</h3>
+              <div class="make-story__text">
+                사진을 공유하거나 글을 남겨보세요
+              </div>
+            </div>
+          </div>
         </div>
-        <main class="layout__main">
-            <div class="main__block">
-                <div class="make-story">
-                    <i class="fas fa-plus make-story--plus"></i>
-                    <div class="make-story__content">
-                        <h3 class="make-story__title">
-                            스토리 만들기
-                        </h3>
-                        <div class="make-story__text">
-                            사진을 공유하거나 글을 남겨보세요
-                        </div>
-                    </div>
-                </div>
+        <div class="main__block">
+          <div class="make-post">
+            <div class="make-post__form">
+              <img src="/img/profile.jpg" class="make-post__img" />
+              <input
+                class="make-post__input"
+                placeholder="구슬탈출님, 무슨 생각을 하고 계신가요?"
+                type="text"
+              />
             </div>
-            <div class="main__block">
-                <div class="make-post">
-                    <div class="make-post__form">
-                        <img src="/img/profile.jpg" class="make-post__img">
-                        <input class="make-post__input" placeholder="구슬탈출님, 무슨 생각을 하고 계신가요?" type="text">
-                    </div>
-                    <div class="make-post__contents">
-                        <div class="make-post__item">
-                            <i class="fas fa-video make-post__icon make-post__icon--live-broadcast"></i>
-                            <div class="make-post__text">라이브 방송</div>
-                        </div>
-                        <div class="make-post__item">
-                            <i class="fas fa-images make-post__icon make-post__icon--image"></i>
-                            <div class="make-post__text">사진 / 동영상</div>
-                        </div>
-                        <div class="make-post__item">
-                            <i class="fas fa-smile make-post__icon make-post__icon--smile"></i>
-                            <div class="make-post__text">기분 / 활동</div>
-                        </div>
-                    </div>
-                </div>
+            <div class="make-post__contents">
+              <div class="make-post__item">
+                <i
+                  class="
+                    fas
+                    fa-video
+                    make-post__icon make-post__icon--live-broadcast
+                  "
+                ></i>
+                <div class="make-post__text">라이브 방송</div>
+              </div>
+              <div class="make-post__item">
+                <i
+                  class="fas fa-images make-post__icon make-post__icon--image"
+                ></i>
+                <div class="make-post__text">사진 / 동영상</div>
+              </div>
+              <div class="make-post__item">
+                <i
+                  class="fas fa-smile make-post__icon make-post__icon--smile"
+                ></i>
+                <div class="make-post__text">기분 / 활동</div>
+              </div>
             </div>
-            <div class="main__block">
-                <div class="make-room">
-                    <button class="make-room__button">
-                        <i class="fas fa-video make-room__button--icon"></i>
-                        <span class="make-room__button--title">룸스 만들기</span>
+          </div>
+        </div>
+        <div class="main__block">
+          <div class="make-room">
+            <button class="make-room__button">
+              <i class="fas fa-video make-room__button--icon"></i>
+              <span class="make-room__button--title">룸스 만들기</span>
+            </button>
+            <div class="make-room__profile-list">
+              <div class="make-room__profile-item">
+                <img
+                  class="make-room__profile-image"
+                  src="/img/default-profile.png"
+                />
+                <div class="make_room__profile-image--online"></div>
+              </div>
+              <div class="make-room__profile-item">
+                <img
+                  class="make-room__profile-image"
+                  src="/img/default-profile.png"
+                />
+                <div class="make_room__profile-image--online"></div>
+              </div>
+              <div class="make-room__profile-item">
+                <img
+                  class="make-room__profile-image"
+                  src="/img/default-profile.png"
+                />
+                <div class="make_room__profile-image--online"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main__block">
+          <div class="do-you-know">
+            <div class="do-you-know__header">
+              <div class="do-you-know__header-title">알 수도 있는 사람</div>
+              <i class="fas fa-ellipsis-h do-you-know__header-icon"></i>
+            </div>
+            <div class="do-you-know__main">
+              <div class="do-you-know__list">
+                <div class="do-you-know__item">
+                  <img
+                    class="do-you-know__img"
+                    src="/img/default-do-you-know-profile.png"
+                  />
+                  <button class="do-you-know__delete-button">
+                    <i class="fas fa-times do-you-know__delete-icon"></i>
+                  </button>
+                  <div class="do-you-know__content">
+                    <div class="do-you-know__name">문제인</div>
+                    <button class="do-you-know__item-button">
+                      <i class="fas fa-user-plus do-you-know__item-icon"></i>
+                      <div class="do-you-know__item-text">친구 추가</div>
                     </button>
-                    <div class="make-room__profile-list">
-                        <div class="make-room__profile-item">
-                            <img class="make-room__profile-image" src="/img/default-profile.png" >
-                            <div class="make_room__profile-image--online"></div>
-                        </div>
-                        <div class="make-room__profile-item">
-                            <img class="make-room__profile-image" src="/img/default-profile.png" >
-                            <div class="make_room__profile-image--online"></div>
-                        </div>
-                        <div class="make-room__profile-item">
-                            <img class="make-room__profile-image" src="/img/default-profile.png" >
-                            <div class="make_room__profile-image--online"></div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="main__block">
-                <div class="do-you-know">
-                    <div class="do-you-know__header">
-                        <div class="do-you-know__header-title">알 수도 있는 사람</div>
-                        <i class="fas fa-ellipsis-h do-you-know__header-icon"></i>
-                    </div>
-                    <div class="do-you-know__main">
-                        <div class="do-you-know__list">
-                            <div class="do-you-know__item">
-                                <img class="do-you-know__img" src="/img/default-do-you-know-profile.png">
-                                <button class="do-you-know__delete-button">
-                                    <i class="fas fa-times do-you-know__delete-icon"></i>
-                                </button>
-                                <div class="do-you-know__content">
-                                    <div class="do-you-know__name">
-                                        문제인
-                                    </div>
-                                    <button class="do-you-know__item-button">
-                                        <i class="fas fa-user-plus do-you-know__item-icon"></i>
-                                        <div class="do-you-know__item-text">친구 추가</div>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <div class="layout__sidebar-right">
-            <div class="sidebar-right__overflow">
-                <div class="sidebar-right__contact">
-                    <div class="contact__header">
-                        <div class="contact__title">
-                            연락처
-                        </div>
-                        <div class="contact__list-icon">
-                            <i class="fas fa-video contact__item-icon"></i>
-                            <i class="fas fa-search contact__item-icon"></i>
-                            <i class="fas fa-ellipsis-h contact__item-icon"></i>
-                        </div>
-                    </div>
-                    <div class="contact__main">                        
-                        <div class="contact__list-user">
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">문재인</div>
-                            </div>
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">에라이</div>
-                            </div>
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">쌍화자야</div>
-                            </div>
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">쌍화자야</div>
-                            </div>
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">쌍화자야</div>
-                            </div>
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">쌍화자야</div>
-                            </div>
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">쌍화자야</div>
-                            </div>
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">쌍화자야</div>
-                            </div>
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">쌍화자야</div>
-                            </div>
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">쌍화자야</div>
-                            </div>
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">쌍화자야</div>
-                            </div>
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">쌍화자야</div>
-                            </div>
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">쌍화자야</div>
-                            </div>
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">쌍화자야</div>
-                            </div>
-                            <div class="contact__item-user">
-                                <img src="/img/default-profile.png" class="contact__profile-img">
-                                <div class="contact__profile-name">쌍화자야</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact__footer">
-                        <div class="contact__group-chatting">
-                            <div class="group-chatting__header">
-                                <div class="group-chatting__title">그룹 대화</div>
-                            </div>
-                            <div class="group-chatting__main">
-                                <div class="group-chatting__button">
-                                    <i class="fas fa-plus group-chatting__icon"></i>
-                                    <div class="group-chatting__text">
-                                        새 그룹 만들기
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
+          </div>
         </div>
+      </main>
+      <div class="layout__sidebar-right">
+        <div class="sidebar-right__overflow">
+          <div class="sidebar-right__contact">
+            <div class="contact__header">
+              <div class="contact__title">연락처</div>
+              <div class="contact__list-icon">
+                <i class="fas fa-video contact__item-icon"></i>
+                <i class="fas fa-search contact__item-icon"></i>
+                <i class="fas fa-ellipsis-h contact__item-icon"></i>
+              </div>
+            </div>
+            <div class="contact__main">
+              <div class="contact__list-user">
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">문재인</div>
+                </div>
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">에라이</div>
+                </div>
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">쌍화자야</div>
+                </div>
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">쌍화자야</div>
+                </div>
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">쌍화자야</div>
+                </div>
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">쌍화자야</div>
+                </div>
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">쌍화자야</div>
+                </div>
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">쌍화자야</div>
+                </div>
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">쌍화자야</div>
+                </div>
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">쌍화자야</div>
+                </div>
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">쌍화자야</div>
+                </div>
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">쌍화자야</div>
+                </div>
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">쌍화자야</div>
+                </div>
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">쌍화자야</div>
+                </div>
+                <div class="contact__item-user">
+                  <img
+                    src="/img/default-profile.png"
+                    class="contact__profile-img"
+                  />
+                  <div class="contact__profile-name">쌍화자야</div>
+                </div>
+              </div>
+            </div>
+            <div class="contact__footer">
+              <div class="contact__group-chatting">
+                <div class="group-chatting__header">
+                  <div class="group-chatting__title">그룹 대화</div>
+                </div>
+                <div class="group-chatting__main">
+                  <div class="group-chatting__button">
+                    <i class="fas fa-plus group-chatting__icon"></i>
+                    <div class="group-chatting__text">새 그룹 만들기</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
