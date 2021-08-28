@@ -17,4 +17,5 @@
 
 .sidebar-left__sidebar-menu {
   padding: 8px;
+  position: fixed;
 }

@@ -1,0 +1,7 @@
+.sidebar-right__overflow {
+  max-height: 100vh;
+  overflow-y: scroll;
+  max-width: inherit;
+  width: inherit;
+  position: fixed;
+}

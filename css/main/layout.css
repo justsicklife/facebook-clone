@@ -32,4 +32,6 @@
 
 .layout__sidebar-right {
   flex-basis: 360px;
+  width: 100%;
+  max-width: 360px;
 }

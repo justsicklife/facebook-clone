@@ -1,0 +1,31 @@
+.group-chatting__header {
+  padding: 0.5em;
+}
+
+.group-chatting__title {
+  font-size: 1.1em;
+  color: rgb(101, 103, 107);
+  font-weight: bold;
+}
+
+.group-chatting__button {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.group-chatting__button:hover {
+  background: rgb(228, 230, 233);
+}
+
+.group-chatting__icon {
+  padding: 0.7em;
+  border-radius: 50%;
+  background: rgb(216, 218, 223);
+  margin-right: 0.8em;
+}
+
+.contact__group-chatting {
+  margin-bottom: 0.5em;
+}
