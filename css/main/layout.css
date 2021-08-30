@@ -1,40 +1,6 @@
-/* flex basic 요소의 초기값 
-   container 크기가 줄어들면 여백이 있는 
-   요소가 여백을 없에고 컨테이너 크기에 맞춘다
-*/
-/* flex grow : 
-    flex 컨테이너 안에 있는 요소에 준 
-    grow 값을 n 분에 빵 하여 그만큼 
-    요소에 각각 n 빵 한 크기 만큼 준다.
-*/
-/* flex shrink 뜻은 줄이다 
-   container가 줄어들면 
-   요소들이 줄어들 양을 선언한다.
-*/
-
 .layout {
   display: flex;
   position: absolute;
   top: 56px;
   width: 100%;
-}
-
-.layout__sidebar-left {
-  flex-basis: 360px;
-}
-
-.layout__main {
-  margin-top: 15px;
-  flex-grow: 1;
-  flex-basis: 760px;
-  display: flex;
-  flex-direction: column;
-  padding: 0 32px;
-  row-gap: 15px;
-}
-
-.layout__sidebar-right {
-  flex-basis: 360px;
-  width: 100%;
-  max-width: 360px;
 }

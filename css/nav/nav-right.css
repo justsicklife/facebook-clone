@@ -23,3 +23,9 @@
 .nav-right__menu-icon:hover {
   background: rgb(216, 218, 223);
 }
+
+@media (max-width: 850px) {
+  .layout__sidebar-right {
+    display: none;
+  }
+}

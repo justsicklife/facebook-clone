@@ -31,5 +31,23 @@
 }
 
 .nav-main__menu-icon {
-  font-size: 2em;
+  font-size: 1.5em;
+}
+
+@media (max-width: 1250px) {
+  .nav-main__menu-item {
+    max-width: 110px;
+  }
+}
+
+@media (max-width: 950px) {
+  .nav-main__menu-item {
+    max-width: calc(15vh - 35px);
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-main__menu-item {
+    display: none;
+  }
 }

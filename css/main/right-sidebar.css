@@ -1,7 +1,37 @@
-.sidebar-right__overflow {
-  max-height: 100vh;
-  overflow-y: scroll;
-  max-width: inherit;
-  width: inherit;
-  position: fixed;
+.layout__sidebar-right {
+  flex-basis: 360px;
+  min-height: inherit;
+  max-height: inherit;
 }
+
+.sidebar-right__overflow {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sidebar-right__contact {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  position: sticky;
+  top: 56px;
+  height: calc(100vh - 56px);
+}
+
+/* .layout__sidebar-right {
+  flex-basis: 360px;
+  min-height: inherit;
+  max-height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-right__overflow {
+  min-height: inherit;
+  max-height: inherit;
+  overflow-y: auto;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: in;
+  position: fixed;
+} */

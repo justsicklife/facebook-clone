@@ -36,3 +36,13 @@
   outline: none;
   font-size: 1.05em;
 }
+
+@media (max-width: 1250px) {
+  .nav-left__search-input {
+    display: none;
+  }
+
+  .nav-left__search-icon {
+    margin: 0;
+  }
+}
